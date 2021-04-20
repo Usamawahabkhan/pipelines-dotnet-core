@@ -4,7 +4,7 @@
 trigger:
 - master
 
-pool: winvs2017
+pool: demopool
 
 variables:
   buildConfiguration: 'Release'
