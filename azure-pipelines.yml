@@ -4,8 +4,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: ubuntu-latest
+pool: winvs2017
 
 variables:
   buildConfiguration: 'Release'
