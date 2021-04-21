@@ -4,7 +4,7 @@
 trigger:
 - master
 
-pool: demopool
+pool: Default
 
 variables:
   buildConfiguration: 'Release'
