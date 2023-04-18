@@ -36,10 +36,3 @@ steps:
     version: 5.0.x
     performMultiLevelLookup: true
     includePreviewVersions: true # Required for preview versions
-- task: AzureRmWebAppDeployment@4
-  inputs:
-    ConnectionType: 'AzureRM'
-    azureSubscription: 'Azure Pass - Sponsorship(4c04e4be-c873-4d2d-b936-decf7af5e97b)'
-    appType: 'webApp'
-    WebAppName: 
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
